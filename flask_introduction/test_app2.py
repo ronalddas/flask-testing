@@ -13,5 +13,5 @@ def app2():
 def test_root(app2):
     result=app2.get("/")
     print(result.data[1:5])
-    assert result.data[1:4]==b"html"
+    assert result.data[1:5]==b"html"
 
