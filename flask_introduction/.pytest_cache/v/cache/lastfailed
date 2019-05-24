@@ -1,0 +1,4 @@
+{
+  "test_app2.py::test_db_connect": true,
+  "test_app2.py::test_root": true
+}
